@@ -1,0 +1,132 @@
+ 
+body {
+ background-color: #f9f9fa;
+}
+
+.nav-link{
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  font-weight: bold !important;
+  background: #ccccca !important;
+  color: white;
+  text-transform: uppercase;
+}
+
+.nav-link:hover, .nav-link:visited, .nav-link:focus{
+  color: white !important;
+  background: #ccccca !important;  
+}
+
+.nav-link.active, .nav_footer, .nav_footer:hover{
+  background: #004839 !important;  
+}
+
+.tab_intro{
+  border-top-left-radius: 0px; 
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1.2px solid #004839;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+}
+
+.enlaces{
+  padding: 10px 25px;
+}
+
+.enlaces ul li{
+  margin: 5px 0px;
+}
+
+.enlaces ul li a, .enlaces ul li a:hover{
+  color: #35c00c;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer{
+  background-color: #e6e6e4;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 0px !important;
+}
+
+.nav_footer{
+  border-radius: 10px !important;
+  width: 140px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav_footer span{
+  font-size: 20px !important;
+}
+
+.main_img{
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.btn-interfaz{
+  text-align: left;
+  color: #004839;
+  position: relative;
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 50px;
+  border-radius: 15px;
+  margin: 5px 0px;
+  border: 1px solid #35c00c;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.btn-interfaz:hover, .btn-interfaz:hover .check{
+  background: #35c00c;
+  color: #FFFFFF;
+}
+
+.btn-interfaz:hover .icon{
+  background: #004839;
+  color: #FFFFFF;
+}
+
+.btn-interfaz .number{
+  font-family: 'Londrina Outline', cursive;
+  font-weight: bold;
+}
+
+.btn-interfaz .icon{
+  background: #35c00c;
+  color: white;
+  font-weight: bold;
+  padding: 4px 15px;
+  position: absolute;
+  left: 0px;
+  top: -0.5px;
+  font-size: 1.35em;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.btn-interfaz .material-icons{
+  padding: 11px 15px;
+}
+
+.btn-interfaz .check{
+  position: absolute;
+  color: #35c00c;
+  padding: 5px;
+  border-radius: 50%;
+  right: 15px;
+  top: -1px;
+  font-size: 2em;
+  font-weight: bold; 
+}
